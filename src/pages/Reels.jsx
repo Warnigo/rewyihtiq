@@ -14,7 +14,7 @@ const Reels = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div>  
     </motion.div>
   );
 };
