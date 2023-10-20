@@ -18,6 +18,7 @@ import Profile from "../pages/Profile";
 import Register from "../pages/Register";
 import Post from "../pages/Post";
 import Reels from "../pages/Reels";
+import ForgotPassword from "../pages/forgotP";
 
 const RequireAuth = ({ children }) => {
   const { user } = useContext(AuthContext);
@@ -53,6 +54,7 @@ const App = () => {
               </RequireAuth>
             }
           />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/login" element={<Login />} />
           <Route path="/p/:id" element={<Post />} />
           <Route path="/:username" element={<Profile />} />

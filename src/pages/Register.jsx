@@ -199,9 +199,7 @@ const Register = () => {
                       {errorMsg}
                     </div>
                   )}
-                  <div className="text-center w-full text-xs font-thin my-4">
-                    <a href="/accounts/password/reset/">Forgot password?</a>
-                  </div>
+                 
                 </form>
               </div>
             </div>
