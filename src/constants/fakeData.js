@@ -1,19 +1,13 @@
 export const FakeUsers = [
   {
     photoURL:
-      "https://lh3.googleusercontent.com/a-/AOh14Gh94MS2OYdnk63M-e_5MLwokYLufFvBMzlHp93wtg",
-    username: "sahilverma.dev",
-    name: "Sahil Verma",
-  },
-  {
-    photoURL:
       "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=100&q=80",
     username: "deadofwrite",
     name: "Priscilla Knowles",
   },
   {
     photoURL:
-      "https://www.hotfootdesign.co.uk/wp-content/uploads/2016/05/d5jA8OZv.jpg",
+      "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-839011.jpg&fm=jpg",
     username: "true.living",
     name: "Dale Bell",
   },

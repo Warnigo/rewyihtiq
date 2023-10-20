@@ -6,7 +6,7 @@ export const reelsData = [
     user: {
       name: "Sahil Verma",
       avatar:
-        "https://lh3.googleusercontent.com/ogw/ADea4I4eiU1mPs0P9uZtGRsDzcKJ_MXyoKviMy4aajd7wg",
+        "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-839011.jpg&fm=jpg",
       username: "sahilverma.dev",
       verified: true,
     },
@@ -67,7 +67,7 @@ export const reelsData = [
     user: {
       name: "Sahil Verma",
       avatar:
-        "https://lh3.googleusercontent.com/ogw/ADea4I4eiU1mPs0P9uZtGRsDzcKJ_MXyoKviMy4aajd7wg",
+        "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-839011.jpg&fm=jpg",
       username: "sahilverma.dev",
       verified: true,
     },

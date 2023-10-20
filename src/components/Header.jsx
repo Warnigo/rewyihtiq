@@ -132,9 +132,9 @@ const Header = () => {
                 <NavLink to="/">
                   <HomeIcon />
                 </NavLink>
-                <div>
+                {/* <div>
                   <ChatIcon />
-                </div>
+                </div> */}
                 <button onClick={() => setModelOpen(true)}>
                   <AddPostIcon />
                 </button>
@@ -167,30 +167,6 @@ const Header = () => {
                               </div>
                               <div>Profile</div>
                             </Link>
-                          </li>
-                          <li onClick={() => setMenuOpen(!menuOpen)}>
-                            <div className="flex items-center gap-1">
-                              <div>
-                                <SavedIcon />
-                              </div>
-                              <div>Saved</div>
-                            </div>
-                          </li>
-                          <li onClick={() => setMenuOpen(!menuOpen)}>
-                            <div className="flex items-center gap-1">
-                              <div>
-                                <SettingIcon />
-                              </div>
-                              <div>Setting</div>
-                            </div>
-                          </li>
-                          <li onClick={() => setMenuOpen(!menuOpen)}>
-                            <div className="flex items-center gap-1">
-                              <div>
-                                <SwitchIcon />
-                              </div>
-                              <div>Switch</div>
-                            </div>
                           </li>
                         </ul>
                         <button
