@@ -127,7 +127,7 @@ const Home = () => {
                 className="flex items-center  justify-between my-2"
                 key={index}
               >
-                <div className="flex gap-2 items-center">
+                <div   className="flex gap-2 items-center">
                   <Link to={`/${item?.username}`}>
                     <img
                       src={item?.photoURL}

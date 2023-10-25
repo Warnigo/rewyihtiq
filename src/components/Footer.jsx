@@ -125,15 +125,7 @@ const Footer = () => {
           <div className="">
             <div className="">
               <span className="font-semibold">&copy; {date.getFullYear()}</span>{" "}
-              Instagram Firebase by{" "}
-              <a
-                href="https://www.instagram.com/sahilverma.dev/"
-                target={"_blank"}
-                rel="nofollow noopener noreferrer"
-                className="font-semibold"
-              >
-                Sahil Verma
-              </a>
+              Instagram Firebase by Warnigo{" "}
             </div>
           </div>
         </div>

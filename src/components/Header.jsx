@@ -49,6 +49,7 @@ const Header = () => {
   const [uploadComplete, setUploadComplete] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const uploadImage = (e) => {
     e.preventDefault();
@@ -99,6 +100,16 @@ const Header = () => {
       }
     );
   };
+
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    console.log("Search Query:", searchQuery);
+  };
+
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-white border-b-[1px] z-50">
@@ -114,13 +125,15 @@ const Header = () => {
           </div>
           <div>
             <div className="hidden sm:block p-2 rounded-lg bg-gray-200 items-center">
-              <form onSubmit={(e) => e.preventDefault()}>
+              <form onSubmit={handleSearchSubmit}>
                 <div className="flex gap-2 text-gray-600">
                   <SearchIcon size={20} />
                   <input
                     type="text"
                     placeholder="Search"
                     className="bg-transparent h-full outline-none"
+                    value={searchQuery}
+                    onChange={handleSearchInputChange}
                   />
                 </div>
               </form>
